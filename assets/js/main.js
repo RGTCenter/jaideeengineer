@@ -138,28 +138,27 @@
     selector: ".glightbox",
   });
 
-  /*
   // เลือก element เมนู
-  const navLinks = document.querySelectorAll('#navmenu ul li a');
+  const navLinks = document.querySelectorAll("#navmenu ul li a");
 
   // ฟังก์ชันทำงานเวลา scroll
-  window.addEventListener('scroll', () => {
+  window.addEventListener("scroll", () => {
     let fromTop = window.scrollY + 100; // เผื่อระยะ offset จาก navbar
 
-    navLinks.forEach(link => {
-      const section = document.querySelector(link.getAttribute('href'));
+    navLinks.forEach((link) => {
+      const section = document.querySelector(link.getAttribute("href"));
       if (section) {
         if (
           section.offsetTop <= fromTop &&
           section.offsetTop + section.offsetHeight > fromTop
         ) {
-          navLinks.forEach(link => link.classList.remove('active'));
-          link.classList.add('active');
+          navLinks.forEach((link) => link.classList.remove("active"));
+          link.classList.add("active");
         }
       }
     });
   });
-
+  /*
   // smooth scroll เมื่อกดเมนู
   navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
