@@ -1936,7 +1936,8 @@ section,
 --------------------------------------------------------------*/
 .certifications {
   padding: 0;
-  background: linear-gradient(135deg, var(--background-color) 0%, color-mix(in srgb, var(--accent-color), transparent 95%) 100%);
+  max-width: 300px;
+  /* background: linear-gradient(135deg, var(--background-color) 0%, color-mix(in srgb, var(--accent-color), transparent 95%) 100%); */
 }
 
 .certifications .content h2 {
