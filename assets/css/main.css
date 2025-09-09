@@ -814,7 +814,7 @@ section,
   transform: translateY(-50%);
 }
 
-.hero .hero-content h1 {
+.hero .hero-content h2 {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -822,13 +822,13 @@ section,
 }
 
 @media (max-width: 992px) {
-  .hero .hero-content h1 {
+  .hero .hero-content h2 {
     font-size: 36px;
   }
 }
 
 @media (max-width: 768px) {
-  .hero .hero-content h1 {
+  .hero .hero-content h2 {
     font-size: 32px;
   }
 }
